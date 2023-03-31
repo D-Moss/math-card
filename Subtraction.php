@@ -1,5 +1,12 @@
-<?php include 'header.php';?>
 
+<html>
+	<head>
+		<title>Math Flashcards</title>
+	</head>
+	<body>
+		<center>
+		<a href="index.php">Addition</a> | <a href="subtraction.php">Subtraction</a>
+		<br/><br/>
 	<h1>Subtraction</h1>
 
 	<h1>
