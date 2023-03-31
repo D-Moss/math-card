@@ -10,8 +10,8 @@
 
 	<h1>
 		<?php
-			$num1 = rand(1,10);
-			$num2 = rand(10,20);
+			$num1 = rand(1,5);
+			$num2 = rand(5,10);
 
 			echo $num1 . " + " . $num2;
 
