@@ -7,14 +7,14 @@
 		<center>
 		<a href="index.php">Addition</a> | <a href="Subtraction.php">Subtraction</a>
 		<br/><br/>
-	<h1>Addition</h1>
+	<h1>Subtraction</h1>
 
 	<h1>
 		<?php
 			$num1 = rand(1,5);
 			$num2 = rand(5,10);
 
-			echo $num1 . " + " . $num2;
+			echo $num1 . " - " . $num2;
 
 		?>
 	</h1>
@@ -24,8 +24,8 @@
 		$correct_answer = $_POST['num1'] + $_POST['num2'];
 
 			if ($correct_answer == $_POST['answer']) {
-				echo "Correct! " . $_POST['num1'] . " + " . $_POST['num2'] . " = " . $_POST['answer'];} else {
-					echo "Wrong! " . $_POST['num1'] . " + " . $_POST['num2'] . " = " . $correct_answer . ", not " . $_POST['answer'];
+				echo "Correct! " . $_POST['num1'] . " - " . $_POST['num2'] . " = " . $_POST['answer'];} else {
+					echo "Wrong! " . $_POST['num1'] . " - " . $_POST['num2'] . " = " . $correct_answer . ", not " . $_POST['answer'];
 				}
 
 
