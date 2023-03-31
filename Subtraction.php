@@ -30,7 +30,7 @@
 
 	<br/><br/><br/>
 
-	<form method="post" action="/subtraction.php">
+	<form method="post" action="subtraction.php">
 				<input name="num1" type="hidden" value="<?php echo $num1 ?>">
 				<input name="num2" type="hidden" value="<?php echo $num2 ?>">
 		Answer: <input name="answer"> <button>Submit</button> <button>New Card</button>
