@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<center>
-		<a href=" ">Addition</a>
+		<a href=" ">Addition</a> | <a href=" ">Subtraction</a>
 		<br/><br/>
 	<h1>Addition</h1>
 
