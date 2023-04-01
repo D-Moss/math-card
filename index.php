@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<center>
-		<a href="index.php">Addition</a> | <a href="Subtraction.php">Subtraction</a>
+		<a href="index.php">Addition</a> | <a href="Subtraction.php">Subtraction</a> | <a href="Multiplication.php">Multiplication</a>
 		<br/><br/>
 	<h1>Addition</h1>
 
