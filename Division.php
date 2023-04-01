@@ -21,7 +21,7 @@
 	<br/><br/>
 	<?php
 	if (!$_POST['answer']) {} else {
-		$correct_answer = $_POST['num1'] * $_POST['num2'];
+		$correct_answer = $_POST['num1'] / $_POST['num2'];
 
 			if ($correct_answer == $_POST['answer']) {
 				echo "Correct! " . $_POST['num1'] . " / " . $_POST['num2'] . " = " . $_POST['answer'];} else {
